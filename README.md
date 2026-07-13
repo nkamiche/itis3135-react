@@ -51,11 +51,13 @@ This repository is configured for GitHub Pages with:
 
 ### Automatic deployment
 
-1. Create the GitHub repository `itis3135-react`.
-2. Push the `main` branch.
+1. Push to the `main` branch.
+2. The GitHub Actions workflow builds the site and publishes to the `gh-pages` branch.
 3. In GitHub, open **Settings → Pages**.
-4. Set **Source** to **GitHub Actions**.
-5. Each push to `main` builds and deploys automatically.
+4. Set **Source** to **Deploy from a branch**.
+5. Choose branch **`gh-pages`** and folder **`/ (root)`**.
+
+Each push to `main` rebuilds and redeploys automatically.
 
 ### Manual deployment
 
