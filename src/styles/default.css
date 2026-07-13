@@ -1,0 +1,143 @@
+body {
+  background-color: #e9b3b7;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: #3a1f1b;
+}
+
+header {
+  max-width: 800px;
+  margin: 30px auto;
+  background-color: #f9eced;
+  text-align: center;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+h1 {
+  color: #883128;
+  font-family: Georgia, serif;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto 25px auto;
+  background-color: #f9eced;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px #cccccc;
+}
+
+h2 {
+  color: #883128;
+  border-bottom: 2px solid #cc8b84;
+  padding-bottom: 8px;
+  display: table;
+}
+
+h3 {
+  color: #883128;
+  font-family: Georgia, serif;
+}
+
+main figure {
+  margin: 20px 0;
+  text-align: center;
+}
+
+main figure img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px #cccccc;
+}
+
+main figcaption {
+  margin-top: 8px;
+  font-style: italic;
+  color: #6d4a44;
+}
+
+nav a {
+  color: #883128;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a.active {
+  text-decoration: underline;
+}
+
+header p em {
+  display: block;
+  margin: 0 0 16px;
+  font-style: italic;
+  color: #6d4a44;
+  font-size: 16px;
+}
+
+footer {
+  color: #883128;
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  color: #883128;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover,
+nav a:hover,
+main a:hover {
+  text-decoration: underline;
+}
+
+main a {
+  color: #883128;
+  font-weight: bold;
+}
+
+.about-course-image {
+  max-width: 320px;
+  margin: 20px auto 28px;
+  text-align: center;
+}
+
+.about-course-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.about-course-image figcaption {
+  margin-top: 8px;
+  font-style: italic;
+}
+
+.contract-image {
+  max-width: 320px;
+  margin: 20px auto 28px;
+  text-align: center;
+}
+
+.contract-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.contract-image figcaption {
+  margin-top: 8px;
+  font-style: italic;
+}
+
+@media (max-width: 640px) {
+  header,
+  main {
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 20px;
+  }
+}

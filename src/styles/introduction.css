@@ -1,0 +1,138 @@
+/* Introduction display name is intentionally large and kept on one line. */
+.display-name {
+  display: block;
+  font-size: 1.6rem;
+  font-family: Georgia, serif;
+  color: #883128;
+  text-align: center;
+  white-space: nowrap;
+  margin: 12px 0 20px;
+}
+
+main.introduction-page {
+  max-width: 720px;
+  padding: 2rem 1.75rem;
+}
+
+main.introduction-page p,
+main.introduction-page li,
+main.introduction-page figcaption,
+main.introduction-page blockquote,
+main.introduction-page .privacy-notice {
+  font-family: "Comfortaa", Arial, sans-serif;
+  line-height: 1.8;
+}
+
+main.introduction-page .page-title {
+  font-family: Georgia, serif;
+  color: #883128;
+  font-size: 2.25rem;
+  text-align: center;
+  margin: 0 0 1.75rem;
+  border-bottom: none;
+  display: block;
+  padding-bottom: 0;
+}
+
+main.introduction-page .intro-photo {
+  margin: 0 auto 1.5rem;
+  text-align: center;
+  max-width: 280px;
+}
+
+main.introduction-page .intro-photo img {
+  width: 280px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(58, 31, 27, 0.22);
+  display: block;
+  margin: 0 auto;
+}
+
+main.introduction-page .intro-photo figcaption {
+  margin-top: 0.75rem;
+  font-style: italic;
+  color: #6d4a44;
+  font-size: 0.95rem;
+}
+
+main.introduction-page .privacy-notice {
+  background-color: #fff8f9;
+  border-left: 4px solid #883128;
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  margin: 0 0 1.75rem;
+  box-shadow: 0 2px 8px rgba(136, 49, 40, 0.08);
+}
+
+main.introduction-page .privacy-notice p {
+  margin: 0;
+}
+
+main.introduction-page .privacy-notice .signature {
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: 600;
+  color: #883128;
+}
+
+main.introduction-page .intro-lead {
+  margin: 0 0 2rem;
+  font-size: 1rem;
+}
+
+main.introduction-page .intro-details {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+main.introduction-page .intro-details li {
+  margin-bottom: 1.35rem;
+  padding-bottom: 1.35rem;
+  border-bottom: 1px solid #e8c4c8;
+}
+
+main.introduction-page .intro-details li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+main.introduction-page .intro-details strong {
+  display: block;
+  color: #883128;
+  margin-bottom: 0.35rem;
+  font-family: Georgia, serif;
+}
+
+main.introduction-page .intro-quote {
+  margin: 2.5rem 0 0;
+  padding: 1.75rem 1.25rem 0;
+  border-top: 2px solid #cc8b84;
+  text-align: center;
+  font-style: italic;
+}
+
+main.introduction-page .intro-quote p {
+  margin: 0 0 0.5rem;
+  font-size: 1.15rem;
+  color: #883128;
+}
+
+main.introduction-page .intro-quote cite {
+  font-style: normal;
+  font-weight: 600;
+  color: #6d4a44;
+}
+
+@media (max-width: 600px) {
+  main.introduction-page {
+    padding: 1.5rem 1.15rem;
+  }
+
+  main.introduction-page .page-title {
+    font-size: 1.85rem;
+  }
+}
