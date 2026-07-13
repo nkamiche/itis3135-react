@@ -2,7 +2,7 @@ function Footer() {
   return (
     <footer>
       <nav aria-label="Footer navigation">
-        <a href="https://webpages.charlotte.edu/nkamiche/">CLT Web</a> |
+        <a href="../">CLT Web</a> |
         <a href="https://nkamiche.github.io/">GitHub.io</a> |
         <a href="https://github.com/nkamiche">GitHub</a> |
         <a href="https://www.freecodecamp.org/learn">FreeCodeCamp</a> |
