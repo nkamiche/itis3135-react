@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-const SITE_TITLE = "Neha Kamichetty's Nice Kangaroo | ITIS 3135";
+const SITE_TITLE = "Neha Kamichetty's Nice Kangaroo | ITIS3135";
 
 /**
  * Sets the browser tab title for the active React page.
