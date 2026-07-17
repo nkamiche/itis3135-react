@@ -12,10 +12,7 @@ function About() {
           src={`${import.meta.env.BASE_URL}images/about-web-development.webp`}
           alt="Illustration representing web development and website design"
         />
-        <figcaption>
-          Illustration representing the web development tools and planning used to build this course
-          site.
-        </figcaption>
+        <figcaption>Planning a path toward the project goal</figcaption>
       </figure>
 
       <p>

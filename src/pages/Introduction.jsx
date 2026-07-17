@@ -7,7 +7,7 @@ function Introduction() {
     <main className="introduction-page">
       <h2 className="page-title">Introduction</h2>
 
-      <h6 className="display-name">Neha Kamichetty | Nice Kangaroo</h6>
+      <h6 className="introduction-display-name">Neha Kamichetty | Nice Kangaroo</h6>
 
       <figure className="intro-photo">
         <img
@@ -18,14 +18,6 @@ function Introduction() {
         <figcaption>In a restaurant mirror</figcaption>
       </figure>
 
-      <aside className="privacy-notice" aria-label="Public posting agreement">
-        <p>
-          &ldquo;I understand that what I post here is publicly viewable and won&apos;t post anything I
-          don&apos;t want public here.&rdquo;
-          <span className="signature">&mdash; NK &mdash; 06/18/2026</span>
-        </p>
-      </aside>
-
       <p className="intro-lead">
         Hello everyone! My name is Neha Kamichetty. I am currently a student at UNC Charlotte and I
         am excited to continue developing my web development skills. I enjoy learning new
@@ -34,10 +26,6 @@ function Introduction() {
       </p>
 
       <ul className="intro-details">
-        <li>
-          <strong>Name:</strong>
-          Neha Kamichetty | Nice Kangaroo
-        </li>
         <li>
           <strong>Personal Background:</strong>
           I was born in India and moved to the United States when I was 5 because of my dad&apos;s job. I
@@ -67,40 +55,36 @@ function Introduction() {
           Home in North Carolina.
         </li>
         <li>
-          <strong>Operating System &amp; Version:</strong>
-          Windows 11.
-        </li>
-        <li>
           <strong>Alternate Computer:</strong>
           Going to the public library near me and working on the computers there.
         </li>
         <li>
-          <strong>Courses I&apos;m Taking &amp; Why:</strong>
-          <ol className="course-list">
+          <strong>Courses I&apos;m Taking:</strong>
+          <ol>
             <li>
-              Current Courses
-              <ol>
-                <li>
-                  ITIS 3135 &ndash; Front-End Web Application Development: To strengthen my HTML, CSS,
-                  and JavaScript skills. And I need the credit!
-                </li>
-              </ol>
+              ITIS 3135 &ndash; Front-End Web Application Development: To strengthen my HTML, CSS, and
+              JavaScript skills. And I need the credit!
             </li>
           </ol>
         </li>
         <li>
-          <strong>Funny/Interesting Item to Remember Me By:</strong>
+          <strong>Funny/Interesting Item:</strong>
           I accidentally fell asleep at a 6 a.m. yoga class and woke up to the instructor laughing.
         </li>
         <li>
-          <strong>I&apos;d Like to Share:</strong>
+          <strong>Something Else to Share:</strong>
           I speak 4 languages!
         </li>
       </ul>
 
-      <blockquote className="intro-quote">
+      <blockquote
+        className="intro-quote"
+        cite="https://en.wikiquote.org/wiki/Walt_Whitman"
+      >
         <p>&ldquo;Be curious, not judgmental.&rdquo;</p>
-        <cite>- Walt Whitman</cite>
+        <cite>
+          &mdash; <em>Walt Whitman</em>
+        </cite>
       </blockquote>
     </main>
   );

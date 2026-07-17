@@ -6,7 +6,7 @@ function Home() {
 
   return (
     <main>
-      <h2>About Me</h2>
+      <h2>Home</h2>
 
       <figure>
         <img
@@ -14,7 +14,7 @@ function Home() {
           alt="Neha Kamichetty smiling in a restaurant mirror while holding a phone."
           width="280"
         />
-        <figcaption>Neha Kamichetty — course homepage photo</figcaption>
+        <figcaption>Neha at a graduation celebration</figcaption>
       </figure>
 
       <p>
@@ -29,7 +29,7 @@ function Home() {
       </p>
 
       <p>
-        <Link to="/introduction">Go to my Introduction Page</Link>
+        <Link to="/introduction">Learn more about me</Link>
       </p>
     </main>
   );

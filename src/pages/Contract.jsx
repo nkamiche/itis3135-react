@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { usePageTitle } from "../hooks/usePageTitle";
 
 function Contract() {
@@ -12,13 +13,13 @@ function Contract() {
           src={`${import.meta.env.BASE_URL}images/course-contract.webp`}
           alt="Illustration of a signed agreement representing the course contract"
         />
-        <figcaption>Illustration representing the course agreement and commitment.</figcaption>
+        <figcaption>Signing the course contract</figcaption>
       </figure>
 
       <p>
-        I, Neha Kamichetty, agree to abide by the terms of the course contract in my Summer 2026,
-        ITIS3135, Web-Based Application Design and Development with my instructor, Professor D.I.
-        von Briesen.
+        I, <Link to="/introduction">Neha Kamichetty</Link>, agree to abide by the terms of the course
+        contract in my Summer 2026, ITIS3135, Web-Based Application Design and Development with my
+        instructor, Professor D.I. von Briesen.
       </p>
 
       <p>
@@ -39,7 +40,9 @@ function Contract() {
         credit (i.e. external libraries) and never from my classmates.
       </p>
 
-      <p>Signed: Neha Kamichetty, 05/24/2026</p>
+      <p>
+        Signed: <em>Neha Kamichetty, 05/24/2026</em>
+      </p>
     </main>
   );
 }
